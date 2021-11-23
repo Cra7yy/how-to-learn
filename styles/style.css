@@ -59,7 +59,7 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  color: #2f80ed
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -317,7 +317,6 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: #000;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
