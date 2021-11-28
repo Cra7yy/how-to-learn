@@ -245,21 +245,21 @@
   overflow: hidden;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
   color: white;
   padding-top: 90px;
 }
 
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
   color: white;
 }
 
-.table_theme-dark {
+.table_theme_dark {
   margin-bottom: 90px;
 }
 
 /*! и элемента с модификатором вида ключ-значение */
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -280,6 +280,7 @@
 /*! Блок footer */
 
 .footer {
+  box-sizing: border-box;
   background-color: #1f1f1f;
   display: flex;
   justify-content: center;
@@ -294,7 +295,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
