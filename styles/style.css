@@ -23,7 +23,7 @@
 }
 
 .logo {
-  width: 183px;
+  max-width: 183px;
   object-position: 50% 50%;
 }
 
@@ -38,15 +38,11 @@
   margin: 0;
   max-width: 730px;
   width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 64px;
+  margin-left: 64px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
 }
 
 .header__subtitle {
@@ -249,21 +245,21 @@
   overflow: hidden;
 }
 
-.section-title_theme_dark {
+.section-title_theme-dark {
   color: white;
   padding-top: 90px;
 }
 
-.section-subtitle_theme_dark {
+.section-subtitle_theme-dark {
   color: white;
 }
 
-.table_theme_dark {
+.table_theme-dark {
   margin-bottom: 90px;
 }
 
 /*! и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+.table__cell_theme-dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -287,13 +283,12 @@
   background-color: #1f1f1f;
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__columns {
-  margin-top: 60px;
-  margin-bottom: 40px;
   width: 90%;
   display: flex;
   justify-content: space-between;
