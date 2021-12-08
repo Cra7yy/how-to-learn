@@ -1,5 +1,7 @@
 .video__iframes {
-  margin-top: 50px;
+  position: relative;
+  top: 60px;
+  border: 0;
 }
 
 .video__iframe:last-child {
