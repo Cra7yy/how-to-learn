@@ -1,0 +1,7 @@
+.video__iframes {
+  margin-top: 50px;
+}
+
+.video__iframe:last-child {
+  margin-left: 20px;
+}
